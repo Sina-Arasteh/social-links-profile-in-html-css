@@ -30,11 +30,26 @@ img {
   height: 6em;
 }
 
+h2 {
+    margin-bottom: 0;
+}
+
 p {
   font-size: 14px;
 }
 
 #green {
   color: hsl(75, 94%, 57%);
+}
+
+.social-media {
+  background-color: hsl(0, 0%, 20%);
+  height: 41px;
+  line-height: 41px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  
+  border-radius: 7px;
 }
 
