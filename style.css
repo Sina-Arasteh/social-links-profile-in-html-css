@@ -6,7 +6,6 @@
 body {
   background-color: hsl(0, 0%, 8%);
   height: 97vh;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,14 +41,27 @@ p {
   color: hsl(75, 94%, 57%);
 }
 
+a {
+  text-decoration: none;
+}
+
 .social-media {
   background-color: hsl(0, 0%, 20%);
   height: 41px;
+  width: 300px;
   line-height: 41px;
   margin-top: 10px;
   font-size: 14px;
   font-weight: 600;
-  
   border-radius: 7px;
+  font-family: inter;
+  color: white;
+}
+
+.social-media:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  cursor: pointer;
+  
 }
 
