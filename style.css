@@ -65,3 +65,14 @@ a {
   
 }
 
+@media (max-width: 375px) {
+  #container {
+    padding: 30px 10%;
+  }
+  .social-media {
+    margin-top: 13px;
+    height: 45px;
+    width: 75vw;
+  }
+
+}
